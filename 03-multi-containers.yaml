@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: nginx and almalinux
+  name: nginx-almalinux
 spec:
   containers:
   - name: nginx
