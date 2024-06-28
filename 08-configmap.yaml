@@ -1,0 +1,8 @@
+kind: ConfigMap 
+apiVersion: V1
+metadata:
+   name: K8
+data:
+  course: "K8"
+  Trainer: "Sainath"
+  github: "https://github.com/sainathvelaga/k8-resources"
