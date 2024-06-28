@@ -9,15 +9,15 @@ spec:
     envFrom:
     - configMapRef:
         name: kubernetes
-      env:
-      - name: course
-        valueFrom: 
-          configMapKeyRef:
-            name: kubernetes
-            key: course
-      - name: trainer
-        valueFrom: 
-          configMapKeyRef:
-            name: kubernetes
-            key: Trainer
+    env:
+    - name: course
+      valueFrom: 
+        configMapKeyRef:
+          name: kubernetes
+          key: course
+    - name: trainer
+      valueFrom: 
+        configMapKeyRef:
+          name: kubernetes
+          key: Trainer
       
