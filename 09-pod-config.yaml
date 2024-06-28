@@ -19,5 +19,5 @@ spec:
         valueFrom: 
           configMapKeyRef:
             name: kubernetes
-            key: trainer
+            key: Trainer
       
