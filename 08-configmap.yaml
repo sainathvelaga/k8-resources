@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap 
 metadata:
-   name: K8
+   name: kubernetes
 data:
   course: "K8"
   Trainer: "Sainath"
