@@ -1,5 +1,5 @@
-kind: ConfigMap 
 apiVersion: V1
+kind: ConfigMap 
 metadata:
    name: K8
 data:
